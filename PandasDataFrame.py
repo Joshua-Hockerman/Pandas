@@ -40,9 +40,9 @@ grades.index = ["Test 1", "Test 2", "Test 3"]
 
 pd.set_option("precision", 2)
 
-# print(grades.describe())
+print(grades.describe())
 
-# print(grades.T.describe())
+print(grades.T.describe())
 
 print(grades.sort_index(ascending=False))
 
